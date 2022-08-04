@@ -1,6 +1,6 @@
 ### FONKSIYONEL PROGRAMLAMA
 
-import numpy as np  # numpy isimli kutuphanemi np kisaltmasi yaparak calisma dizinime ekledim.
+import numpy as np  # numpy isimli kutuphanemi np kisaltmasi yaparak calisma dizinime ekledik.
 
 a = np.array([1, 2, 3, 4])  # np.array yaparak diziyi numpy'in taniyacagi sekle cevirdik.
 b = np.array([2, 3, 4, 5])
@@ -9,7 +9,7 @@ print(a * b)
 
 ## Vektorel Islem Yapmamizi Saglayan Fonksiyonlar
 
-liste = [1, 2, 3, 4]  # Listenin her bir elemanina 10 eklemek istiyorum;
+liste = [1, 2, 3, 4]  # Listenin her bir elemanina 10 eklemek istiyoruz;
 
 for i in liste:
     print(i + 10)
@@ -28,7 +28,7 @@ list(filter(lambda x: x % 2 == 0,
 
 # "reduce"; Indirgeme islemi yapar;
 
-from functools import reduce  # Kutuphane icerisinden "reduce" fonksiyonunu aldim.
+from functools import reduce  # Kutuphane icerisinden "reduce" fonksiyonunu aldik.
 
 liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 reduce(lambda a, b: a + b, liste)  # Tum sayilar toplandi.
