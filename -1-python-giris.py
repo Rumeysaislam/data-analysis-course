@@ -33,7 +33,7 @@ print("Her", "seyi", "halledecegim.", sep="_")          # iki kelime arasina "-"
 
 # stringlerde "+" ve "*" ;
 print("Her" + "seyi" + "halledeceğim.")
-print("Her" + " seyi" + " halledeceğim.")               # Kelimenin onune bosluk birakarak iki kelime arasina bosluk koydum.
+print("Her" + " seyi" + " halledeceğim.")               # Kelimenin onune bosluk birakarak iki kelime arasina bosluk koyduk.
 print("Power" * 3)
 
 
