@@ -94,7 +94,7 @@ class veribilimci():
 
     def __init__(self):
         self.bildiği_diller = []
-        self.bolum = ""                         # Orneklerin birimden birime göre degisecek ozelliklerini belirledim.
+        self.bolum = ""                         # Orneklerin birimden birime göre degisecek ozelliklerini belirledik.
 
     def dil_ekle(self, yeni_dil):               # yeni_dil: Fonksiyonun argümanı(x), self: Ornekleri baglamak için kullanilir.
         self.bildiği_diller.append(yeni_dil)    # Fonksiyonu tanimladik.
