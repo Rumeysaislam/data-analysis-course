@@ -8,7 +8,7 @@
 new_sum = lambda a, b: a + b                         # (a,b: Degiskenler, a+b: Yapilacak islem)
 print(new_sum (4, 5))
 
-# Her bir tuple icerisinde ikinci elemana gidip, kucukten buyuge siralamak istiyorum;
+# Her bir tuple icerisinde ikinci elemana gidip, kucukten buyuge siralamak istiyoruz;
 sirasiz_liste = [("b", 3), ("a", 8), ("d", 12), ("c", 1)]
 
 
