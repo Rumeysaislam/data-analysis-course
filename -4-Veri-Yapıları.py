@@ -34,7 +34,7 @@ print(liste)
 
 # Eleman Ekleme;
 liste = ["anil", "rumeysa", "tilda"]
-print(liste + ["defne"])                        # Kalici bir ekleme olmasini istiyorsan yeni liste tanımla.
+print(liste + ["defne"])                        # Kalici bir ekleme olmasini istiyorsan yeni liste tanimlanir.
 
 liste = ["anil", "rumeysa", "tilda"]
 liste = liste + ["defne"]
@@ -65,7 +65,7 @@ print(liste)
 
 # "insert" metodu;
 liste = ["anil", "rumeysa", "tilda"]
-liste.insert(1, "hakan")                            # Değişiklik kalıcı değil, 1. elemana ekleme yaptim.
+liste.insert(1, "hakan")                            # Degisiklik kalici degil, 1. elemana ekleme yaptik.
 print(liste)
 
 
@@ -189,7 +189,7 @@ print(sozluk["REG"]["SSE"])
 sozluk = {"REG": "Regrasyon Modeli",
           "LOJ": "Lojistik Regrasyon",
           "CART": "Classification and Reg."}
-sozluk["GBM"] = "Gradient Boosting Mac."              # key ile birlikte ekleme
+sozluk["GBM"] = "Gradient Boosting Mac."             # key ile birlikte ekleme
 print(sozluk)
 
 
@@ -245,7 +245,7 @@ s.remove("her seyi")
 print(s)
 
 s.remove(
-    "her seyi")                 # Keyerror verdi. Cünkü; daha önce silmistim, sildigimden emin olup hata almamak icin kaldirma islemini "discard" ile yaparim.
+    "her seyi")                 # Keyerror verdi. Cünkü; daha önce silmistik, sildigimden emin olup hata almamak icin kaldirma islemini "discard" ile yapariz.
 print(s)
 
 rhsh = "rumeysa", "her seyi", "halledecek"
