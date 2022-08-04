@@ -31,7 +31,7 @@ class Veri_Bilimci():
     bildigi_diller = []
 
 
-ali = Veri_Bilimci()                            # Veri_Bilimci sinifinin ozelliklerini barindiran bir alt birim olusturdum.
+ali = Veri_Bilimci()                            # Veri_Bilimci sinifinin ozelliklerini barindiran bir alt birim olusturduk.
 
 print(ali.sql)
 print(ali.deneyim)
@@ -127,7 +127,7 @@ class data_science(employees):                  # Parantez icerisinde ozellikler
 
 DS = data_science()
 
-# DS. yaptigimizda artik employess sinifinin ozelliklerinin data.science'a eklendigini gorecegim. (*)
+# DS. yaptigimizda artik employess sinifinin ozelliklerinin data.science'a eklendigini gorecegiz. (*)
 
 
 # Fonksiyonel Yapida Sinifi Tanimlamak icin;
