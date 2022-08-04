@@ -1,6 +1,6 @@
 # String metodlari / "len" metodu (Eleman sayisi bilgisine ulasmak icin);
 
-pwr = "power"                                     # Kelimelerin basindaki tirnak isaretini unutma!
+pwr = "power"                                     
 print(pwr)
 print(len(pwr))
 print(len("power"))
